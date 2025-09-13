@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(251, 240, 233);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  
+  
+}
+body.Home{
+  background-image:url("https://i0.wp.com/gitjaipur.com/wp-content/uploads/2023/02/1612873484phpRfCSGK-2.jpeg?fit=1832%2C780&ssl=1") ;
+  background-repeat: no-repeat;
+  background-color: rgb(55, 53, 53); 
+  background-blend-mode: soft-light; 
+  background-size: cover;
+}
+body.hy{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+
+}
+
+header {
+  background: #01043d;
+  color: #fff;
+  padding: 3rem;
+  text-align: center;
+  background-image: url("https://i0.wp.com/gitjaipur.com/wp-content/uploads/2023/03/2-1.png?resize=150%2C150&ssl=1");
+  background-repeat: no-repeat;
+  background-position: 80px 30px;
+  
+  
+}
+header.hy{
+  text-decoration-line: underline; 
+text-decoration-color:#fff;
+text-decoration-style: wavy; 
+text-decoration-thickness: 2px; }
+
+h2.f{
+  text-decoration-line: underline; 
+text-decoration-color: rgb(2, 15, 88); 
+text-decoration-style: solid; 
+text-decoration-thickness: 2px; 
+text-align: center;
+  color: #003366;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+
+header nav a {
+  color: white;
+  margin: 0px 20px;
+  text-decoration: none;
+}
+header nav a :hover{
+  color: rgb(0, 200, 214);
+}
+
+section {
+  padding: 20px;
+  
+}
+section.k {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+section img {
+  display: block;
+  margin: 10px auto 15px auto; 
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.438);
+}
+section p.h{
+  text-align: center;
+  margin-bottom: 25px;
+  color: #000000;
+  display: inline-block;
+  margin: 20px auto;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+span.a{
+  color: #000000;
+  background-color: rgb(250, 210, 90);
+}
+span.a:hover{
+  color: rgb(73, 0, 73);
+}
+
+section p.h:hover {
+  text-decoration: underline;
+  color: rgb(111, 0, 0);
+
+}
+span.P{
+  color: #000000;
+  background-color: rgb(203, 207, 207);
+
+}
+span.P:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+form input, form textarea, form button {
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button {
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  background: #110f0f;
+  margin-top: 200px;
+}

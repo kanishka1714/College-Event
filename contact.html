@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - College Fest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html"><u>Home</u></a>
+      <a href="events.html"><u>Events</u></a>
+      <a href="contact.html"><u>Contact</u></a>
+    </nav>
+  </header>
+
+  <section style="background-color: beige;">
+    <h2>Send us a message</h2>
+    <form onsubmit="showMessage(event)">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    <p id="response"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My College | All Rights Reserved</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
